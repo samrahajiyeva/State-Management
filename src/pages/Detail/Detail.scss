@@ -1,0 +1,52 @@
+.detail {
+    padding: 0px 100px;
+    width: 100%;
+    height: 720px;
+
+    &__sec {
+        padding: 200px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        &__img {
+            width: 400px;
+            height: 400px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        &__text {
+            width: 500px;
+            height: 500px;
+            flex-direction: column;
+            display: flex;
+            gap: 45px;
+            justify-content: center;
+
+            h2 {
+                font-weight: bold;
+                margin: 0px;
+            }
+
+            span {
+                color: #777777;
+                font-weight: bold;
+            }
+
+            .price {
+                font-size: 30px;
+            }
+
+            p {
+                color: #484848;
+                padding-right: 40px;
+            }
+        }
+
+    }
+}

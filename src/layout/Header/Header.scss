@@ -1,0 +1,98 @@
+.header {
+    width: 100%;
+    height: 98px;
+    padding: 0px 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+
+    &__items {
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+            margin: 0px;
+
+            li {
+                font-weight: bold;
+                font-size: 14px;
+                color: #222;
+
+                .link {
+                    text-decoration: none;
+                    color: #222;
+                }
+            }
+        }
+    }
+
+    &__search {
+        form {
+            width: 280px;
+            height: 40px;
+            border: 1px solid #ededeb;
+            border-radius: 20px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                width: 85%;
+                height: 100%;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border: none;
+                padding: 0px 0px 4px 10px;
+                
+            }
+            
+            .search {
+               font-size: 20px;
+                color: #8c8c8c;
+            }
+
+}
+    }
+
+    &__icons {
+        
+            display: flex;
+            gap: 23px;
+            font-size: 25px;
+            color: #777;
+        .icon:hover {
+            color: #f68872;
+            transition: 0.4;
+            
+        }
+    }
+}
+
+.shop {
+    position: fixed;
+    left: 20px;
+    background-color: #F68872;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    color: white;
+    font-size: 25px;
+    bottom: 20px;
+    border-radius: 10px;
+
+    &:hover {
+        transition: .06s;
+        background-image: linear-gradient(to top, #feada6 0%, #f68870 100%);
+}
+
+    .shopping {
+        color: white;
+    }
+}
